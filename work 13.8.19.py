@@ -13,6 +13,6 @@ for i in range(tickets):
         price = price + 1390
     if age > 99:
         print('неверный возраст')
-if tickets > 3:
+if tickets >= 3:
     price = price * 0.9
 print(price)
